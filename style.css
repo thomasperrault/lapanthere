@@ -6,27 +6,14 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
-a,
-button {
+a, button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
 a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
-
 .bloc {
     width: 100%;
     clear: both;
@@ -38,39 +25,20 @@ a:hover {
     background-size: cover;
     position: relative;
 }
-
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
 }
-
 .bloc-lg {
     padding: 100px 50px;
 }
-
 .bloc-md {
     padding: 50px;
 }
-
 .bloc-sm {
     padding: 20px 50px;
 }
 
-.bg-center,
-.bg-l-edge,
-.bg-r-edge,
-.bg-t-edge,
-.bg-b-edge,
-.bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
-}
 
 .bg-repeat {
     background: repeat;
@@ -99,170 +67,12 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}
 
-.d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
-}
 
-.d-bloc .icon-round,
-.d-bloc .icon-square,
-.d-bloc .icon-rounded,
-.d-bloc .icon-semi-rounded-a,
-.d-bloc .icon-semi-rounded-b {
-    border-color: rgba(255, 255, 255, .9);
-}
 
-.d-bloc .divider-h span {
-    border-color: rgba(255, 255, 255, .2);
-}
 
-.d-bloc .a-btn,
-.d-bloc .navbar a,
-.d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
-.d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
-    color: rgba(255, 255, 255, .6);
-}
 
-.d-bloc .a-btn:hover,
-.d-bloc .navbar a:hover,
-.d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
-.d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
-.d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
-.d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
-}
 
-.d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
-}
-
-.d-bloc .btn-wire,
-.d-bloc .btn-wire:hover {
-    color: rgba(255, 255, 255, 1);
-    border-color: rgba(255, 255, 255, 1);
-}
-
-.d-bloc .panel {
-    color: rgba(0, 0, 0, .5);
-}
-
-.d-bloc .panel button:hover {
-    color: rgba(0, 0, 0, .7);
-}
-
-.d-bloc .panel icon {
-    border-color: rgba(0, 0, 0, .7);
-}
-
-.d-bloc .panel .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
-}
-
-.d-bloc .panel .a-btn {
-    color: rgba(0, 0, 0, .6);
-}
-
-.d-bloc .panel .a-btn:hover {
-    color: rgba(0, 0, 0, 1);
-}
-
-.d-bloc .panel .btn-wire,
-.d-bloc .panel .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
-    border-color: rgba(0, 0, 0, .3);
-}
-
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
-}
-
-.d-bloc .panel button:hover,
-.l-bloc button:hover {
-    color: rgba(0, 0, 0, .7);
-}
-
-.l-bloc .icon-round,
-.l-bloc .icon-square,
-.l-bloc .icon-rounded,
-.l-bloc .icon-semi-rounded-a,
-.l-bloc .icon-semi-rounded-b {
-    border-color: rgba(0, 0, 0, .7);
-}
-
-.d-bloc .panel .divider-h span,
-.l-bloc .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
-}
-
-.d-bloc .panel .a-btn,
-.l-bloc .a-btn,
-.l-bloc .navbar a,
-.l-bloc .navbar-brand,
-.l-bloc a .icon-sm,
-.l-bloc a .icon-md,
-.l-bloc a .icon-lg,
-.l-bloc a .icon-xl,
-.l-bloc h1 a,
-.l-bloc h2 a,
-.l-bloc h3 a,
-.l-bloc h4 a,
-.l-bloc h5 a,
-.l-bloc h6 a,
-.l-bloc p a {
-    color: rgba(0, 0, 0, .6);
-}
-
-.d-bloc .panel .a-btn:hover,
-.l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
-.l-bloc .navbar-brand:hover,
-.l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-md,
-.l-bloc a:hover .icon-lg,
-.l-bloc a:hover .icon-xl,
-.l-bloc h1 a:hover,
-.l-bloc h2 a:hover,
-.l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
-.l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
-}
-
-.l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
-}
-
-.d-bloc .panel .btn-wire,
-.d-bloc .panel .btn-wire:hover,
-.l-bloc .btn-wire,
-.l-bloc .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
-    border-color: rgba(0, 0, 0, .3);
-}
 
 .voffset {
     margin-top: 30px;
@@ -487,23 +297,6 @@ button {
     text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
 }
 
-.panel-sq,
-.panel-sq .panel-heading,
-.panel-sq .panel-footer {
-    border-radius: 0;
-}
-
-.panel-rd {
-    border-radius: 30px;
-}
-
-.panel-rd .panel-heading {
-    border-radius: 29px 29px 0 0;
-}
-
-.panel-rd .panel-footer {
-    border-radius: 0 0 29px 29px;
-}
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
@@ -830,13 +623,6 @@ h4 {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .bloc.full-width-bloc,
-    .bloc-tile-2.full-width-bloc .container,
-    .bloc-tile-3.full-width-bloc .container,
-    .bloc-tile-4.full-width-bloc .container {
-        padding-left: 0;
-        padding-right: 0;
-    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -894,17 +680,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
-    }
+
     .b-parallax {
         background-attachment: scroll;
     }
@@ -986,17 +762,6 @@ h4 {
     .bloc-md {
         padding-left: 0;
         padding-right: 0;
-    }
-    .bloc-tile-2 .container,
-    .bloc-tile-3 .container,
-    .bloc-tile-4 .container,
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .a-block {
-        padding: 0 10px;
     }
     .btn-dwn {
         display: none;
