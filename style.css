@@ -241,10 +241,12 @@ a[data-lightbox]:hover img {
     color: rgba(0, 0, 0, .5);
     background: none;
 }
+.btn, a,  h3, h4, h5, h6, label, p {
+    color: #575757!important;
+}
 .btn, a, h1, h2,  h3, h4, h5, h6, label, p {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
 }
 .container {
     max-width: 1000px;
@@ -274,6 +276,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    color: white!important;
 }
 h2 {
     font-size: 22px;
@@ -291,7 +294,7 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 h1 {
-    color: #333333!important;
+    color: #ffffff!important;
 }
 h4 {
     color: #333333!important;
@@ -311,7 +314,7 @@ h4 {
     margin-top: 50px;
 }
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 40px 40px 40px 40px;
 }
 .bold-link {
@@ -325,17 +328,20 @@ h4 {
     background-color: #364577;
 }
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #924069;
 }
 .tc-white {
-    color: #F3976C!important;
+    color: #924069!important;
+}
+.title-h1 {
+    color: #ffffff!important;
 }
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #924069;
     color: #FFFFFF!important;
 }
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #d979a9!important;
     color: #FFFFFF!important;
 }
 .ltc-white {
@@ -345,10 +351,10 @@ h4 {
     color: #cccccc!important;
 }
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #924069!important;
 }
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #d979a9!important;
 }
 .icon-dark-slate-blue {
     color: #364577!important;
