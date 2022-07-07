@@ -216,9 +216,9 @@ a[data-lightbox]:hover::before {
     height: 50px;
     margin-left: -25px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, .6);
+    background: #924069;
     color: #FFF;
-    font-weight: 100;
+    font-weight: 400;
     z-index: 1;
     position: absolute;
     top: 50%;
@@ -231,19 +231,66 @@ a[data-lightbox]:hover img {
     animation-fill-mode: none;
 }
 .lightbox-caption {
+    font-size: 20px;
     padding: 20px;
-    color: #FFF;
-    background: rgba(0, 0, 0, .5);
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: 5px;
+    margin: 0px!important;
 }
 .snapshot-lb .lightbox-caption {
-    padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: #333333!important;
     background: none;
 }
+
+.modal-content {
+    width: 350px;
+}
+.modal-dialog{
+    position: relative!important;
+    top: 150px!important;
+    width: 350px!important;
+    margin: auto!important;
+}
+.modal-body{
+    display: flexbox!important;
+    flex-direction: column!important;
+    padding-bottom: 0px!important;
+}
+.prev-lightbox, .next-lightbox{
+    color: #924069!important;
+    background-color: white;
+    font-size: 25px;
+    height: 30px;    
+}
+.prev-lightbox{
+    position: absolute;
+    top: 40%;
+    border-radius: 0px 5px 5px 0px;
+}
+.next-lightbox{
+    position: absolute;
+    top: 40%;
+    border-radius: 5px 0px 0px 5px;
+    left: 315px;
+}
+.img-carousel{
+    display: block;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .btn, a,  h3, h4, h5, h6, label, p {
     color: #575757!important;
 }
