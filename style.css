@@ -153,6 +153,9 @@ li a:hover {
     margin-top: 10px;
     margin-bottom: 40px;
 }
+.marg50{
+    margin: 50px 50px 30px 50px;
+}
 .btn {
     margin: 0 5px 5px 0;
 }
@@ -254,9 +257,6 @@ a[data-lightbox]:hover img {
 .hero-bloc-text {
     font-size: 38px;
 }
-p {
-    font-size: 11px;
-}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -275,8 +275,14 @@ p {
 }
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px auto 20px auto;
     color: white!important;
+}
+.social:hover{
+    color: #ffc8e4!important;
+}
+.my-5{
+    margin: 20px 0px 30px 0px;
 }
 h2 {
     font-size: 22px;
@@ -285,7 +291,6 @@ h2 {
 h3 {
     font-size: 15px;
     text-transform: uppercase;
-    font-weight: 700;
     color: #333333!important;
 }
 .med-width-whitespace {
@@ -310,12 +315,12 @@ h4 {
     margin-bottom: 24px;
 }
 .portfolio-row {
-    margin-bottom: 44px;
+    margin-bottom: 250px;
     margin-top: 50px;
 }
 .black-background {
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 40px 40px 40px 40px;
+    padding: 25px 25px 25px 25px;
 }
 .bold-link {
     font-weight: 900;
@@ -495,6 +500,12 @@ h4 {
     }
     form {
         padding: 5px;
+    }
+    .padd60{
+        padding: 20px 80px 0px 80px;
+    }
+    .img-center{
+        margin: 0 auto;
     }
 }
 @media (max-width: 400px) {
