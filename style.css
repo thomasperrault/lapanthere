@@ -402,13 +402,13 @@ h4 {
     border-color: #364577!important;
 }
 .bg-banniere {
-    background-image: url("img/banniere.jpg");
+    background-image: url("img/banniere.webp");
 }
 .bg-banniere-bottom {
-    background-image: url("img/equipe.jpg");
+    background-image: url("img/equipe.webp");
 }
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 @media (max-width: 1024px) {
     .bloc {
