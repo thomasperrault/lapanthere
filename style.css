@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-size: 15px!important;
 }
 a, button {
     transition: all .3s ease-in-out;
@@ -275,22 +276,10 @@ a[data-lightbox]:hover img {
     display: block;
     height: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sondage{
+    max-width: 600px;
+    padding: 50px 50px 50px 50px!important;
+}
 .btn, a,  h3, h4, h5, h6, label, p {
     color: #575757!important;
 }
