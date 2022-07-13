@@ -82,17 +82,17 @@
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-12 sondage">
-							<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+							<form id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 								<div class="form-group">
 									<label for="name">Nom</label>
 									<input type="text" name="name" id="name" class="form-control" required autofocus/>
 								</div>
 								<div class="form-group">
 									<label for="email">Adresse e-mail</label>
-									<input type="email" name="email" id="email" class="form-control" type="email" required />
+									<input type="email" name="email" id="email" class="form-control" required />
 								</div>
 								<div class="form-group">
-									<form method="post" action="traitement.php" class="form-group" required />
+									<div class="form-group">
 										<label for="sondage">Comment nous avez-vous connu ?</label><br>
 										<select name="sondage" id="sondage">
 											<option value="site-internet">Site Internet</option>
@@ -100,7 +100,7 @@
 											<option value="bouche-a-oreille">Bouche à oreille</option>
 											<option value="carte-visite">Carte de visite</option>
 										</select>
-									</form>
+									</div>
 								</div>
 								<div class="form-group">
 									<label for="message"><br>Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
